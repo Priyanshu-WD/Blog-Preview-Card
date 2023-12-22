@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #f4d04e;
+  --white-color: #ffffff;
+  --grey-color: #808080;
+  --black-color: #121212;
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#box {
+  width: 18rem;
+  height: 26rem;
+  background-color: var(--white-color);
+  border: 1px solid var(--black-color);
+  border-radius: 12px;
+  box-shadow: 5px 5px var(--black-color);
+}
+
+#ill-img {
+  width: 16rem;
+  border-radius: 15px;
+  padding: 1rem;
+  border-radius: 24px;
+}
+
+#btn {
+  width: 4.5rem;
+  height: 1.7rem;
+  font-family: "Figtree";
+  background-color: var(--main-color);
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 800;
+  border-radius: 6px;
+  margin-left: 1rem;
+}
+
+#para {
+  font-family: "Figtree";
+  font-size: 0.7rem;
+  margin-left: 1rem;
+  margin-top: 0.9rem;
+  font-weight: 600;
+}
+
+#h4 {
+  color: var(--black-color);
+  font-family: "Figtree";
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 800;
+}
+
+#h4:hover {
+    color: var(--main-color);
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+#para1 {
+  color: var(--grey-color);
+  font-family: "Figtree";
+  font-size: 0.75rem;
+  margin-top: 0.7rem;
+  margin-left: 0.9rem;
+  line-height: 1.25rem;
+}
+
+#ava-img {
+    width: 2.2rem;
+    margin-left: 0.9rem;
+    margin-top: 0.9rem;
+    float: left;
+}
+
+.text {
+    padding-left: 10px;
+    padding-top: 8%;
+    float: left;
+    font-family: "Figtree";
+    font-size: 1.1rem;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    #h4:hover {
+        color: unset;
+}
+
+}
